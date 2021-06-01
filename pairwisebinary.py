@@ -4,7 +4,6 @@ import scipy.special
 
 k = 1
 cnt = 0
-A = []
 
 n = int(input("Число столбцов (должно быть >=6):"))
 while scipy.special.binom(2*k, k) < 2*n:
